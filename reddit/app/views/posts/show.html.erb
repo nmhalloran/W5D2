@@ -1,0 +1,10 @@
+<%= @post.title %>
+<br>
+<%= @post.content %>
+<br>
+<%= @post.url %>
+<br>
+
+<% @post.subs.each do |subb| %>
+   <%= subb.title %>
+<%end%>
